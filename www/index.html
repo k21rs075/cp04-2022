@@ -150,7 +150,12 @@
 
 
     // 変数宣言
-
+    var audio = new Audio();
+    var active = false;
+    var startTime = 0;
+    var period = 0;
+    
+ 
 
     
     // ボタンの初期設定
@@ -170,6 +175,9 @@
       img.onload = function() {
         ctx.drawImage(img, 0, 0, 300, 300); 
       };
+      var audio = new Audio();
+      audio.src = "pin.wav";
+      audio.play();
         
         
     }
