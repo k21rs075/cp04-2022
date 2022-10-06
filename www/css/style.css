@@ -72,3 +72,6 @@
     body {
         background-color: skyblue;
     }
+    button {
+        font-family: Times;
+    }
