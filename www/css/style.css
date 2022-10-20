@@ -63,6 +63,12 @@
         font-size: 25px;
         position:absolute; top:380px; left:70%; width:28%; height:60px; 
     }
+     #btnD {
+        color: blue;
+        background-color: sandybrown;
+        font-size: 25px;
+        position:absolute; top:500px; left:40%; width:40%; height:80px; 
+    }
 
     #minute {
         font-size: 30px;
